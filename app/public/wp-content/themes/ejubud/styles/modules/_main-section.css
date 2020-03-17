@@ -1,0 +1,16 @@
+.main-section {
+  @mixin atMedium {
+    max-height: 435px;
+    overflow: hidden;
+  }
+
+  &--smaller-padding {
+    padding-top: 0.125rem;
+    padding-bottom: 0.125rem;
+
+    @mixin atMedium {
+      padding-top: 0.875rem;
+      padding-bottom: 0.875rem;
+    }
+  }
+}

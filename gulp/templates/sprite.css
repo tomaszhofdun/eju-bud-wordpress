@@ -1,0 +1,28 @@
+/* Do not edit "modules/_sprite.css" directly as it's automatically generate by gulp-sprite */
+/* Instead edit "gulp/templates/sprite.css" */
+
+{{#shapes}}
+{{#first}}
+.icon {
+    background-image: url("//eju-bud.pl/wp-content/themes/ejubud/images/icons/svg-compiled/{{{sprite}}}"); 
+}
+.no-svg .icon {
+    background-image: url("//eju-bud.pl/wp-content/themes/ejubud/images/icons/svg-compiled/{{#replaceSvgWithPng}}{{{sprite}}}{{/replaceSvgWithPng}}"); 
+}
+.icon-local {
+    background-image: url("//localhost:3000/wp-content/themes/ejubud/images/icons/svg-compiled/{{{sprite}}}"); 
+}
+.no-svg .icon-local {
+    background-image: url("//localhost:3000/wp-content/themes/ejubud/images/icons/svg-compiled/{{#replaceSvgWithPng}}{{{sprite}}}{{/replaceSvgWithPng}}"); 
+}
+{{/first}}
+
+.icon--{{base}}
+    {
+    width: {{width.outer}}px;
+    height: {{height.outer}}px;
+    background-position: {{position.relative.xy}};
+    display: inline-block;
+    vertical-align: middle;
+}
+{{/shapes}}

@@ -1,0 +1,216 @@
+# Translation of Plugins - Crop-Thumbnails - Stable (latest release) in Polish
+# This file is distributed under the same license as the Plugins - Crop-Thumbnails - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-01-20 08:13:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pl\n"
+"Project-Id-Version: Plugins - Crop-Thumbnails - Stable (latest release)\n"
+
+#: functions/editor.php:82 functions/save.php:297
+msgid "You are not permitted to crop the thumbnails."
+msgstr "Nie posiadasz uprawnień do przycinania miniatur."
+
+#: functions/settingsscreen.php:81
+msgid "When active, only users who are able to edit files can crop thumbnails. Otherwise (default), any user who can upload files can also crop thumbnails."
+msgstr "Gdy aktywne, tylko użytkownicy mogący edytować pliki mogą przycinać miniatury. W przeciwnym wypadku (domyślne) każdy użytkownik który może dodawać pliki może również przycinać miniatury."
+
+#: functions/settingsscreen.php:79
+msgid "User Permission"
+msgstr "Uprawnienia użytkowników"
+
+#: functions/settingsscreen.php:101
+msgid "Hide Crop-Thumbnails button below the featured image?"
+msgstr "Schować przycisk Crop-Thumbnails pod obrazkiem wyróżniającym?"
+
+#: functions/settingsscreen.php:100
+msgid "Choose the image sizes you do not want to show, if the user uses the button below the featured image box."
+msgstr "Wybierz rozmiary obrazków których nie chcesz pokazywać w przypadku gdy użytkownik użyje przycisku pod obrazkiem wyróżniającym."
+
+#: functions/editor.php:81
+msgid "The plugin can not correctly connect to the server."
+msgstr "Wtyczka nie może poprawnie połączyć się z serwerem."
+
+#. Description of the plugin
+msgid "The easy way to adjust your cropped image sizes."
+msgstr "Prosty sposób aby dostosować twoje skadrowane rozmiary obrazków."
+
+#: functions/editor.php:80
+msgid "This image has an image orientation value in its exif-metadata. Be aware that this may result in rotatated or mirrored images on safari ipad / iphone."
+msgstr "Ten obrazek posiada wartość orientacji w metadanych exif. Bądź świadomy, że może to spowodować obrócone lub odbite obrazki na safari ipad / iphone."
+
+#: functions/editor.php:70
+msgid "Step 2: Change the selection of the image above."
+msgstr "Krok 2: Zmień zaznaczenie obrazka powyżej."
+
+#: functions/settingsscreen.php:27 functions/settingsscreen.php:41
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: functions/settingsscreen.php:48 functions/settingsscreen.php:107
+#: functions/settingsscreen.php:115 functions/settingsscreen.php:140
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#. Author URI of the plugin
+msgid "https://www.totalmedial.de"
+msgstr "https://www.totalmedial.de"
+
+#. Author of the plugin
+msgid "Volkmar Kantor"
+msgstr "Volkmar Kantor"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/extend/plugins/crop-thumbnails/"
+msgstr "https://wordpress.org/extend/plugins/crop-thumbnails/"
+
+#: functions/settingsscreen.php:123
+msgid "Crop-Thumbnails will only show cropped images. Sizes with no crop will always be hidden."
+msgstr "Crop-Thumbnails wyświetli jedynie skadrowane obrazki. Rozmiary bez kadrowania zawsze będą schowane."
+
+#: functions/settingsscreen.php:122
+msgid "Crop-Thumbnails is designed to make cropping images easy. For some post types, not all crop sizes are needed, but the plugin will automatically create all the crop sizes. Here you can select which crop sizes are available in the cropping interface for each post type.."
+msgstr "Crop-Thumbnails został zaprojektowany aby ułatwić kadrowanie obrazków. Dla niektórych typów treści nie wszystkie rozmiary kadrów są wymagane, ale wtyczka automatycznie utworzy wszystkie rozmiary kadrów. Tutaj możesz wybrać które rozmiary kadrów są dostępne w interfejsie kadrowania dla każdego typu treści."
+
+#: functions/settingsscreen.php:91
+msgid "Enable Data-Debug."
+msgstr "Włącz debugowanie danych."
+
+#: functions/settingsscreen.php:89
+msgid "Enable JS-Debug."
+msgstr "Włącz debugowanie JS."
+
+#: functions/settingsscreen.php:87
+msgid "Developer Settings"
+msgstr "Ustawienia dewelopera"
+
+#: functions/settingsscreen.php:84
+msgid "Plugin Test"
+msgstr "Test wtyczki"
+
+#: functions/settingsscreen.php:76
+msgid "Sizes and Post Types"
+msgstr "Rozmiary i Typy treści"
+
+#: functions/settingsscreen.php:54
+msgid "You can support the plugin author (and let him know you love this plugin) by donating via Paypal. Thanks a lot!"
+msgstr "Możesz wesprzeć autora wtyczki (i dać znać że uwielbiasz tą wtyczkę) darowizną przez Paypal. Serdeczne dzięki!"
+
+#: functions/settingsscreen.php:53
+msgid "Support the plugin author"
+msgstr "Wesprzyj autora wtyczki"
+
+#: functions/settingsscreen.php:34
+msgid "Crop Post Thumbnail Page"
+msgstr "Strona kadrowania obrazka wyróżniającego posta"
+
+#: functions/save.php:37
+msgid "ERROR: Can't find original image metadata!"
+msgstr "BŁĄD: Nie można znaleźć oryginalnych metadanych obrazka!"
+
+#: functions/save.php:31
+msgid "ERROR: Can't find original image file!"
+msgstr "BŁĄD: Nie można znaleźć oryginalnego pliku obrazka!"
+
+#: functions/save.php:318
+msgid "ERROR: Can't find original image in database!"
+msgstr "BŁĄD: Nie można znaleźć oryginalnego obrazka w bazie danych!"
+
+#: functions/save.php:311
+msgid "Cropping to these dimensions on this image is not possible."
+msgstr "Kadrowanie tego obrazka do tych rozmiarów jest niemożliwe."
+
+#: functions/save.php:287 functions/save.php:293 functions/save.php:301
+msgid "ERROR: Submitted data is incomplete."
+msgstr "BŁĄD: Wysłane dane są niekompletne."
+
+#: functions/save.php:282
+msgid "ERROR: Security Check failed (maybe a timeout - please try again)."
+msgstr "BŁĄD: Niepowodzenie kontroli zabezpieczenia (prawdopodobnie przekroczenie dozwolonego czasu - proszę spróbuj ponownie)."
+
+#: functions/save.php:102
+msgid "Can't delete temporary file."
+msgstr "Nie można usunąć pliku tymczasowego."
+
+#: functions/save.php:98
+msgid "Can't copy temporary file to media library."
+msgstr "Nie można skopiować pliku tymczasowego do biblioteki mediów."
+
+#: functions/save.php:90
+msgid "Can't generate filesize '%s'."
+msgstr "Nie można wygenerować rozmiaru pliku '%s'."
+
+#: functions/editor.php:76
+msgid "Ratio:"
+msgstr "Proporcja:"
+
+#: functions/editor.php:75
+msgid "Dimensions:"
+msgstr "Rozmiar:"
+
+#: functions/editor.php:78
+msgid "Original image size too small for good crop quality!"
+msgstr "Oryginalny rozmiar obrazka jest zbyt mały dla dobrej jakości kadrowania!"
+
+#: functions/editor.php:77
+msgid "cropped"
+msgstr "skadrowane"
+
+#: functions/editor.php:74
+msgid "deselect all"
+msgstr "odznacz wszystkie"
+
+#: functions/editor.php:71
+msgid "Step 3: Click on \"Save Crop\"."
+msgstr "Krok 3: Kliknij na \"Zapisz kadrowanie\"."
+
+#: functions/editor.php:69
+msgid "Step 1: Choose an image-size from the list."
+msgstr "Krok 1: Wybierz rozmiar obrazka z listy."
+
+#: functions/editor.php:68
+msgid "Quick Instructions"
+msgstr "Szybkie instrukcje"
+
+#: functions/editor.php:72
+msgid "Save Crop"
+msgstr "Zapisz kadrowanie"
+
+#: functions/editor.php:67
+msgid "pixel"
+msgstr "pikseli"
+
+#: functions/editor.php:66
+msgid "Raw"
+msgstr "Surowy"
+
+#: functions/editor.php:65
+msgid "Please wait until the images are cropped."
+msgstr "Proszę czekać aż obrazki zostaną skadrowane."
+
+#: functions/editor.php:63
+msgid "Warning: the original image is too small to be cropped in good quality with this thumbnail size."
+msgstr "Uwaga: oryginalny rozmiar obrazka jest zbyt mały aby został skadrowany w dobrej jakości do tego rozmiaru miniatury."
+
+#: functions/editor.php:73
+msgid "Crop all images with same ratio at once"
+msgstr "Skadruj wszystkie obrazki z tymi samymi proporcjami jednocześnie"
+
+#: functions/editor.php:64
+msgid "Cropping is disabled for this post-type."
+msgstr "Kadrowanie jest wyłączone dla tego typu treści."
+
+#. Plugin Name of the plugin
+msgid "Crop Thumbnails"
+msgstr "Kadruj miniatury"
+
+#: functions/backendpreparer.php:79 functions/backendpreparer.php:80
+#: functions/backendpreparer.php:135 functions/backendpreparer.php:136
+#: functions/backendpreparer.php:182 functions/backendpreparer.php:243
+#: functions/backendpreparer.php:244
+msgid "Crop Featured Image"
+msgstr "Kadruj obrazek wyróżniający"

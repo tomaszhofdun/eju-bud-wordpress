@@ -1,0 +1,53 @@
+.mini-gallery {
+  position: relative;
+  text-align: center;
+
+  &--md-none {
+    display: none;
+
+    @mixin atMedium {
+      display: block;
+    }
+  }
+
+  &--sm-none {
+    display: none;
+
+    @mixin atSmall {
+      display: block;
+    }
+  }
+
+  &__container {
+    overflow: hidden;
+
+    & img {
+      display: block;
+      height: 100%;
+      width: 100%;
+      transition: all 1.5s ease-out;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  &__button {
+    position: absolute;
+    width: calc(100% - 0.472rem);
+    left: 50%;
+    border-radius: 0;
+    text-decoration: none;
+    padding: 0;
+    font-size: 1.8rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: none;
+
+    &:hover {
+      background-color: rgba(0, 176, 240, 0.95);
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.large-hero {
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+
+  &__bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+    transform: scale(1.5);
+
+    @mixin atMedium {
+      transform: scale(1);
+    }
+  }
+
+  &__frame {
+    position: absolute;
+    background-color: rgba(86, 78, 86, 0.75);
+    border-radius: 17px;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 12%;
+    width: 78%;
+    height: 50%;
+
+    @mixin atSmall {
+      height: 60%;
+    }
+
+    @mixin atMedium {
+      left: 18%;
+      width: 63%;
+    }
+  }
+
+  &__text-content {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+    @mixin atSmall {
+      width: 78%;
+      left: 11%;
+    }
+  }
+
+  &__title {
+    font-weight: 300;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+    max-width: 38.3125rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.4rem;
+
+
+  }
+}

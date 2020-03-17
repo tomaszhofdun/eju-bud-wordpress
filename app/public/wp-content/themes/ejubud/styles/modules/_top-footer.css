@@ -1,0 +1,48 @@
+.top-footer {
+  color: #333333;
+  & a {
+    color: #333333;
+
+  }
+  &__currentDate {
+    display: none;
+    min-height: 1px;
+    @mixin atMedium {
+      display: block;
+    }
+  }
+  &__socials {
+    float: left;
+    margin-top: 10px;
+
+    @mixin atMedium {
+      margin-top: 0;
+      float: right;
+    }
+
+    &__icons {
+      float: left;
+      margin-top: 20px;
+
+      @mixin atSmall {
+        margin: 0 4px;
+      }
+
+      &--facebook {
+        width: 1.8rem;
+        height: 1.7rem;
+      }
+
+      &--envelope {
+        color: rgb(75, 75, 75);
+      }
+
+
+    }
+  }
+
+  & a {
+    text-decoration: none;
+    
+  }
+}

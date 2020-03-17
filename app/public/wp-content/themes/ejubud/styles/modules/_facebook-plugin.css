@@ -1,0 +1,45 @@
+@keyframes slideFacebookAtMedium {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 400px;
+  }
+}
+
+@keyframes slideFacebookSmall {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 350px;
+  }
+}
+
+.facebook-plugin {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-40%);
+  z-index: 4;
+  width: 0;
+  transition: all 0.5s ease-in;
+
+  &--visible {
+    animation: slideFacebookSmall 0.5s ease-in 0s 1 both;
+
+    @mixin atMedium {
+      animation: slideFacebookAtMedium 0.5s ease-in 0s 1 both;
+    }
+  }
+}
+
+.facebook-button {
+  position: fixed;
+  right: 0;
+  top: 20%;
+  z-index: 4;
+  height: 100px;
+}

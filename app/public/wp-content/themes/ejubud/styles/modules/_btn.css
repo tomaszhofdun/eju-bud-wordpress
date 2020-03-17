@@ -1,0 +1,72 @@
+.btn {
+  font-weight: 300;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease-out;
+  &:hover {
+    cursor: pointer;
+  }
+
+  &--transparent {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.33);
+    &:hover {
+      background-color: $mainBlue;
+    }
+  }
+
+  &--orange {
+    color: #fff;
+    background-color: rgb(240, 162, 36);
+    &:hover {
+      background-color: color-mod(rgb(240, 162, 36) blackness(20%));
+    }
+  }
+
+  &--red {
+    color: #fff;
+    background-color: rgb(206, 75, 75);
+    &:hover {
+      background-color: color-mod(rgb(160, 38, 38) blackness(20%));
+    }
+  }
+
+
+
+  /* duży przycisk */
+  &--large {
+    font-size: 1.8rem;
+    padding: 0.5rem 0.7rem;
+
+    @mixin atSmall {
+      font-size: 2rem;
+      padding: 0.41rem 2.18rem;
+    }
+  }
+
+  /* średni przycisk */
+
+  &--medium {
+    font-size: 1.3rem;
+    padding: 0.8rem 1rem;
+
+    @mixin atSmall {
+      font-size: 1.2rem;
+      padding: 0.3rem 0.5rem;
+    }
+  }
+
+  /* mały przycisk */
+  &--small {
+    font-size: 1rem;
+    padding: 0.5rem 0.7rem;
+
+    @mixin atSmall {
+      font-size: 1.2rem;
+      padding: 0.3rem 0.5rem;
+    }
+  }
+
+  
+}

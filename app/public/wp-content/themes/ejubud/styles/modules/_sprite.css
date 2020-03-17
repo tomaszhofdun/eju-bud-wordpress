@@ -1,0 +1,123 @@
+/* Do not edit "modules/_sprite.css" directly as it's automatically generate by gulp-sprite */
+/* Instead edit "gulp/templates/sprite.css" */
+
+.icon {
+    background-image: url("//eju-bud.pl/wp-content/themes/ejubud/images/icons/svg-compiled/sprite-203f7fc8.svg"); 
+}
+.no-svg .icon {
+    background-image: url("//eju-bud.pl/wp-content/themes/ejubud/images/icons/svg-compiled/sprite-203f7fc8.png"); 
+}
+.icon-local {
+    background-image: url("//localhost:3000/wp-content/themes/ejubud/images/icons/svg-compiled/sprite-203f7fc8.svg"); 
+}
+.no-svg .icon-local {
+    background-image: url("//localhost:3000/wp-content/themes/ejubud/images/icons/svg-compiled/sprite-203f7fc8.png"); 
+}
+
+.icon--svg--arrow-pointing-to-left
+    {
+    width: 42px;
+    height: 42px;
+    background-position: 97.36842105263158% 43.220338983050844%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon--svg--arrow-up-on-a-black-circle-background
+    {
+    width: 52px;
+    height: 52px;
+    background-position: 82.99319727891157% 45.13274336283186%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon--svg--calendar
+    {
+    width: 122px;
+    height: 122px;
+    background-position: 0 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon--svg--envelope
+    {
+    width: 35.61px;
+    height: 25.41px;
+    background-position: 78.61077998646864% 77.5961043588424%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon--svg--frown
+    {
+    width: 102px;
+    height: 102px;
+    background-position: 50% 69.31818181818181%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon--svg--home-nav
+    {
+    width: 32px;
+    height: 32px;
+    background-position: 10.828025477707007% 99.1869918699187%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon--svg--house
+    {
+    width: 122px;
+    height: 122px;
+    background-position: 54.464285714285715% 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon--svg--play-button-left
+    {
+    width: 42px;
+    height: 42px;
+    background-position: 80.26315789473684% 65.2542372881356%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon--svg--play-button-right
+    {
+    width: 42px;
+    height: 42px;
+    background-position: 94.07894736842105% 65.2542372881356%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon--svg--smile
+    {
+    width: 102px;
+    height: 102px;
+    background-position: 100% 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon--svg--stopwatch
+    {
+    width: 122px;
+    height: 122px;
+    background-position: 0 78.2051282051282%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon--svg--telephone-symbol-button
+    {
+    width: 34px;
+    height: 34px;
+    background-position: 0 100%;
+    display: inline-block;
+    vertical-align: middle;
+}

@@ -1,0 +1,60 @@
+.parralax-section {
+  position: relative;
+  &__mobile-hidden {
+      display: none;
+    @mixin atMedium {
+      display: initial;
+    }
+  }
+  &__desktop-hidden {
+      display: initial;
+    @mixin atMedium {
+      display: none;
+    }
+  }
+  &__img {
+    position: relative;
+    overflow: hidden;
+  }
+
+  & img {
+    width: 100%;
+    display: block;
+  }
+
+  &__title {
+    position: absolute;
+    color: #fff;
+    font-family: "Cinzel", serif;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    min-width: 70%;
+    font-size: 2.3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    @mixin atMedium {
+      font-size: 4.3rem;
+    }
+
+  }
+
+  &__bg {
+    &.lazyloaded {
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center center;
+      width: 100%;
+      height: 500px;
+      position: relative;
+      overflow: hidden;
+      @mixin atMedium {
+        height: 700px;
+      }
+    }
+  }
+
+}
