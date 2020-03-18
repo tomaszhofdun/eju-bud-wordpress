@@ -12,6 +12,8 @@
 node_modules/
 app/public/wp-admin
 app/public/wp-includes
+app/public/wp-content/uploads
+ai1wm-backups/
 .tmp/
 
 
@@ -33,4 +35,5 @@ dwsync.xml
 
 # custom
 
+icon-local.php
 adminer-4.7.6.php

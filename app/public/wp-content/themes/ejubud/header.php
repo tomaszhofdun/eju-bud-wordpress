@@ -45,7 +45,7 @@
 
           <div class="top-footer__socials__icons"><a href="https://www.facebook.com/Zaklad-Og%C3%B3lnobudowlany-Patryk-Springer-285270644961803/" target="_blank"><img class="top-footer__socials__icons--facebook" src="<?php echo get_theme_file_uri("images/icons/facebook-icon-preview-1-400x400.png") ?>" alt=""></a></div>
           <div class="top-footer__socials__icons"><a href="mailto:patryk.springer@op.pl"><span class="icon <?php if(file_exists(dirname(__FILE__)."/icon-local.php")) {echo "icon-local";}  ?> icon--svg--envelope "></span><span class="top-footer__socials__icons--envelope">patryk.springer@op.pl</span> </a></div>
-          <div class="top-footer__socials__icons"><span class="icon <?php if(file_exists(dirname(__FILE__)."/icon-local.php")) {echo "icon-local";}  ?> d icon--svg--telephone-symbol-button top-footer__socials__icons--telephone"></span>727 531 213</div>
+          <div class="top-footer__socials__icons"><span class="icon <?php if(file_exists(dirname(__FILE__)."/icon-local.php")) {echo "icon-local";}  ?> icon--svg--telephone-symbol-button top-footer__socials__icons--telephone"></span>727 531 213</div>
         </div>
       </div>
     </div>
